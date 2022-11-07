@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header h1 {
+  margin: 0px;
+  background-image: linear-gradient(
+    to right,
+    rgb(18, 18, 19),
+    rgb(255, 255, 255)
+  );
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 800;
+}
+
+.searcharea {
+  width: 25%;
+  height: 1000px;
+  background-color: black;
+  position: relative;
+  float: left;
+}
+
+.searcharea h1 {
+  margin-left: 15px;
+  color: white;
+}
+
+.searcharea form {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.resultarea {
+  width: 75%;
+  position: relative;
+  float: right;
+  text-align: center;
+}
+
+.cityCell {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  flex-wrap: wrap;
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(153, 153, 170),
+    rgb(112, 110, 110)
+  );
+}
+
+#forecastdata {
+  column-count: 5;
+  column-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#daydatawrapper {
+  text-align: center;
+}
+
+#daydata {
+  margin: 10px;
+}
+
+.historyItem {
+  margin: 20px;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(132, 132, 143),
+    rgb(133, 130, 130)
+  );
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+#daydatawrapper {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  width: 275px;
+  flex-wrap: wrap;
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(85, 85, 90),
+    rgb(138, 130, 130)
+  );
+}
+
+#searchhistory button:hover {
+  color: rgba(23, 50, 201, 0.4);
+  box-shadow: 20px 20px 20px rgba(90, 122, 209, 0.4);
+}
+figure {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+}
+figure img {
+  display: flex;
+  justify-content: center;
+  width: 175px;
+}
+
+#searchInput {
+  width: 150px;
+  height: 50px;
+}
+button {
+  padding: 15px;
+}
+
+h1 {
+  color: white;
+  margin-top: 15px;
+}
