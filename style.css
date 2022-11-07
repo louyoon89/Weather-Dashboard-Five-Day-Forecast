@@ -122,7 +122,7 @@ header h1 {
 
 #searchhistory button:hover {
   color: rgba(23, 50, 201, 0.4);
-  box-shadow: 20px 20px 20px rgba(90, 122, 209, 0.4);
+  box-shadow: 10px 20px 20px rgba(90, 122, 209, 0.4);
 }
 figure {
   margin: 25px;

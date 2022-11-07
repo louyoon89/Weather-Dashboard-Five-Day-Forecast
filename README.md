@@ -5,7 +5,7 @@
  * Create weather dashboard that will run in the browesr and feature dynamically updated HTML and CSS.
  * App will display today's weather, as well as provide a 5 Day Weather Forecast using Open Weather API.
 
-## 
+## Build With:
 * HTML/CSS
 * Javascript
 * Moment.js
