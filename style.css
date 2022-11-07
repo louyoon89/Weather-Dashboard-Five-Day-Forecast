@@ -24,6 +24,8 @@ header h1 {
   width: 25%;
   height: 1000px;
   background-color: black;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
   position: relative;
   float: left;
 }
