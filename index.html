@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard: Five Day Forecast</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <main>
+    <body>
+      <header>
+        <h1>Weather Dashboard</h1>
+      </header>
+
+      <aside class="searcharea">
+        <h1>Search for a City:</h1>
+        <figure>
+          <img
+            src="https://cdn1.vectorstock.com/i/1000x1000/71/80/weather-icons-on-black-background-vector-1677180.jpg"
+            alt="weatherpic"
+          />
+        </figure>
+        <form id="searchArea">
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Enter City Name Here"
+          />
+          <button>Search</button>
+        </form>
+        <div id="searchhistory"></div>
+      </aside>
+
+      <article class="resultsarea">
+        <div id="daydatawrapper">
+          <h1 id="daydata">Please Enter a City Name in Search Bar</h1>
+          <div id="todaydata"></div>
+        </div>
+      </article>
+
+      <article>
+        <div id="forecastdata"></div>
+      </article>
+    </body>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+  <script src="./script.js"></script>
+</html>
