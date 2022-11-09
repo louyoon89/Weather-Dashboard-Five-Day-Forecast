@@ -30,5 +30,5 @@ THEN I am again presented with current and future conditions for that city
     * Functional dashboard display all required data inputed into storage to provide the weather data for current day, as well as the next five days.
     * Search history is provided below search area, which can be clicked to provide data of previous city searches.
 * Deployed links:
-    * Live link: https://louyoon89.github.io/Week-6-Challenge-Server-Side-APIs-Weather-Dashboard/
-    * Github link: https://github.com/louyoon89/Week-6-Challenge-Server-Side-APIs-Weather-Dashboard
+    * Live link: https://louyoon89.github.io/Weather-Dashboard-Five-Day-Forecast/
+    * Github link: https://github.com/louyoon89/Weather-Dashboard-Five-Day-Forecast
